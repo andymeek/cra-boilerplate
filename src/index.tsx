@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { ThemeProvider } from '@material-ui/core/styles'
 
 import theme from 'utils/theme'
-import Supermarket from 'supermarket/Supermarket'
+import Supermarket from 'app/App'
 
 import './index.css'
 

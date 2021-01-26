@@ -9,7 +9,7 @@ const AppContainer = styled.section`
 function App() {
   return (
     <AppContainer>
-      <Container maxWidth="md">Supermarket</Container>
+      <Container maxWidth="md">App</Container>
     </AppContainer>
   )
 }
