@@ -4,14 +4,11 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build",
-    "lint": "eslint ./src/**.{ts,tsx}",
-    "lint:fix": "npm run lint --fix",
+    "lint": "eslint \"{src,test}/**/*.{ts,tsx}\"",
+    "lint:fix": "npm run lint -- --fix",
     "start": "react-scripts start",
     "test": "react-scripts test --watchAll=false --coverage",
     "test:watch": "react-scripts test --watchAll=true"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
